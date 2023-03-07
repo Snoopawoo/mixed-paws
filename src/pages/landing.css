@@ -1,0 +1,38 @@
+.fscreen{
+    background-image: url(https://img.freepik.com/premium-vector/blue-seamless-pattern-with-white-paws_197792-1238.jpg);
+    background-size: 100vh;
+}
+.base{
+    margin-left: 15vw;
+    background-color: rgb(191, 241, 224);
+    width: 70vw;
+    height: 100vh; 
+}
+.head{
+    padding: 5px 6px;
+}
+.images{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.images p {
+    color: #1e8073;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imagep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pp{
+    font-size: 30px !important;
+}
+.imga{
+    border: 4px #1e8073 solid;
+    border-radius: 100%;
+}

@@ -5,8 +5,7 @@ function Header() {
   return (
     <header>
       <div className="generateBar">
-        <p><input type="checkbox" id="scales" name="scales" checked/>MAIN</p>
-        <p><input type="checkbox" id="scales" name="scales" checked/>SECOUNDARY</p>
+        <p><input type="checkbox" id="scales" name="scales" checked/>HYBRID</p>
         <p><input type="checkbox" id="scales" name="scales" checked/>EMOJIES</p>
         <p><input type="checkbox" id="scales" name="scales" checked/>AGE</p>
         <p><input type="checkbox" id="scales" name="scales" checked/>PERSONALITY</p>
