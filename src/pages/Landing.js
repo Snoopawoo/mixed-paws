@@ -1,72 +1,46 @@
 import React from "react";
-import Header from "../components/Header";
 import "../pages/landing.css";
+import mix from '../img/mix.png'
+import AnimalOne from "../components/AnimalOne";
+import AnimalTwo from "../components/AnimalTwo";
+import Emoji1 from "../components/Emoji1";
+import Emoji2 from "../components/Emoji2";
+import Emoji3 from "../components/Emoji3";
+import Palett from "../components/Palett";
+import Age from "../components/Age";
+import Mood from "../components/Mood";
 
 function Landing() {
-  let img1 = 'https://images.immediate.co.uk/production/volatile/sites/23/2023/01/Banded-mongoose-32608ec.jpg';
-  //img1 = img1roll;
-  let img2 = 'https://images.immediate.co.uk/production/volatile/sites/23/2023/01/Banded-mongoose-32608ec.jpg';
-  //img2 = img2roll;
-  let emojiblock = '<img className="emoji" src="https://images.immediate.co.uk/production/volatile/sites/23/2023/01/Banded-mongoose-32608ec.jpg" alt="Girl in a jacket" width="100" height="100"/>'
-  let age = 'Elderly';
-  let personality = 'Frisky';
   return (
     <div className="fscreen">
       <div className="base">
         <div className="head">
-          <Header />
+          <a href="https://ko-fi.com/snoopdesigns">
+          <img className="cofi"
+            src="https://storage.ko-fi.com/cdn/kofi2.png"
+          /></a>
         </div>
         <div className="images">
-          <div className="imagep">
-            <img
-              className="imga"
-              src={img1}
-              alt="Girl in a jacket"
-              width="300"
-              height="300"
+          <AnimalOne/>
+          <img
+              src={mix}
+              className="imgmix"
+              width='50px'
+              height='50px'
             />
-            <p>Monguse</p>
-          </div>
-          <p className="pp">Mixed with</p>
-          <div className="imagep">
-            <img
-              className="imga"
-              src={img2}
-              width="300"
-              height="300"
-            />
-            <p>Monguse 2 electric boogaloo</p>
-          </div>
+          <AnimalTwo/>
         </div>
         <div className='emojitab'>
-          <input className="quantity" min='1' max='5' type='number' placeholder='Quantity'></input>
-          <div dangerouslySetInnerHTML={{__html: emojiblock}}></div>
-          <img
-              className="emoji"
-              src="https://images.immediate.co.uk/production/volatile/sites/23/2023/01/Banded-mongoose-32608ec.jpg"
-              alt="Girl in a jacket"
-              width="100"
-              height="100"
-            />
-            <img
-              className="emoji"
-              src="https://images.immediate.co.uk/production/volatile/sites/23/2023/01/Banded-mongoose-32608ec.jpg"
-              alt="Girl in a jacket"
-              width="100"
-              height="100"
-            />
-            </div>
+          <Emoji1/>
+          <Emoji2/>
+          <Emoji3/>
+        </div>
         <div className='modifier'>
-          <p className="mod">{age}</p>
-          <p className="mod">{personality}</p>
+          <Age/>
+          <Mood/>
         </div>
         <div className="palette">
-        <img
-              src="https://images.immediate.co.uk/production/volatile/sites/23/2023/01/Banded-mongoose-32608ec.jpg"
-              alt="Girl in a jacket"
-              width="500"
-              height="50"
-            />
+            <Palett/>
         </div>
       </div>
     </div>

@@ -3,21 +3,20 @@
     background-size: 100vh;
 }
 .base{
-    margin-left: 15vw;
-    background-color: rgb(191, 241, 224);
-    width: 70vw;
+    background-color: rgb(242, 242, 242);
+    width: 100vw;
     height: 100vh; 
 }
 .head{
     padding: 5px 6px;
 }
 .images{
-    margin-top: 30px;
+    margin-top: 2vh;
     display: flex;
     justify-content: center;
 }
 .images p {
-    color: #1e8073;
+    color: #787878;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -33,42 +32,75 @@
     font-size: 30px !important;
 }
 .imga{
-    border: 4px #1e8073 solid;
-    border-radius: 100%;
+    max-width: 40vw;
+    height: 35vh;
+    border: 4px #9ea2a2 solid;
+    border-radius: 5%;
+}
+.imgmix{
+    margin-top: 17vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 .emojitab{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-}
-.quantity{
-    height: 20px;
-    width: 65px;
+    margin-top: 3.5vh;
 }
 .emoji{
-    margin-left: 5px;
+    margin-left: 1vw;
 }
 .modifier{
+    margin-top: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .mod{
+    user-select: none;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    width: 300px;
+    margin-top: 2vh;
+    width: 20vw;
     font-family: sans-serif;
-    font-size: large;
+    font-size: 3vh;
     font-weight: bolder;
     color: white;
-    background-color: #1e8073;
-    border: #175d54 solid 2px;
+    background-color: #9ea2a2;
+    border: #9ea2a2 solid 2px;
     padding: 2px 5px;
 }
 .palette{
-    margin-top: 20px;
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
+}
+.text{
+font-size: 3.5vh !important;
+}
+.cp{
+    display: flex;
+    justify-content: center;
+    border: 0;
+}
+.cpd{
+    display: flex;
+}
+.cpdc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ptext{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #787878;
+    background-size: 100%;
+}
+.cofi{
+    position: fixed;
+    margin-top: 91vh;
+    margin-left: 1vw;
+    height: 6vh;
 }
