@@ -32,10 +32,14 @@
     font-size: 30px !important;
 }
 .imga{
+    size: 50%;
     max-width: 40vw;
     height: 35vh;
     border: 4px #9ea2a2 solid;
     border-radius: 5%;
+}
+.imga:hover{
+    cursor: pointer;
 }
 .imgmix{
     margin-top: 17vh;
@@ -51,11 +55,43 @@
 .emoji{
     margin-left: 1vw;
 }
+.emoji:hover{
+    cursor: pointer;
+}
 .modifier{
     margin-top: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.modifier:hover{
+    cursor: pointer;
+}
+.use{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #9d3434;
+    margin-left: 0.5vw;
+    margin-top: 1vh;
+    position: absolute;
+}
+.use button{
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    border: #787878 solid 2px;
+    background-color: #dbdddd ;
+    margin-top: 0.5vh;
+    color: #3d3d3d;
+}
+.use button:hover{
+    cursor: pointer;
+}
+.use h5{
+    align-self: center;
 }
 .mod{
     user-select: none;
@@ -84,6 +120,9 @@ font-size: 3.5vh !important;
     justify-content: center;
     border: 0;
 }
+.cp:hover{
+    cursor: pointer;
+}
 .cpd{
     display: flex;
 }
@@ -94,7 +133,7 @@ font-size: 3.5vh !important;
 }
 .ptext{
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #787878;
     background-size: 100%;
 }
@@ -103,4 +142,15 @@ font-size: 3.5vh !important;
     margin-top: 91vh;
     margin-left: 1vw;
     height: 6vh;
+}
+.credit{
+    color: #9ea2a2 !important;
+    align-self: flex-start;
+    margin: 0 !important;
+    padding-left: 0.5vw;
+    font-size: 13px !important;
+}
+.imagep a{
+    align-self: flex-start;
+    text-decoration: none;
 }

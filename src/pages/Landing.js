@@ -11,9 +11,19 @@ import Age from "../components/Age";
 import Mood from "../components/Mood";
 
 function Landing() {
+  const handleReroll = () => {
+     window.location.reload();
+  };
+
   return (
     <div className="fscreen">
       <div className="base">
+        <div className="use">
+        <p>Click items to Reroll</p>
+        <h5>or</h5>
+        <p></p>
+          <button onClick={handleReroll}>Reroll All</button>
+          </div>
         <div className="head">
           <a href="https://ko-fi.com/snoopdesigns">
           <img className="cofi"

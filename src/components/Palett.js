@@ -23,8 +23,8 @@ function Palett() {
             <div className='cp' onClick={handleClickp}
                 style={{
                 backgroundColor: colors[pn][0],
-                width: '100px',
-                height: '100px'
+                width: '85px',
+                height: '85px'
               }}
               ></div>
               <p className='ptext'>{colors[pn][0]}</p></div>
@@ -32,8 +32,8 @@ function Palett() {
             <div className='cp' onClick={handleClickp}
                 style={{
                 backgroundColor: colors[pn][1],
-                width: '100px',
-                height: '100px'
+                width: '85px',
+                height: '85px'
               }}
               ></div>
               <p className='ptext'>{colors[pn][1]}</p></div>
@@ -41,8 +41,8 @@ function Palett() {
             <div className='cp' onClick={handleClickp}
                 style={{
                 backgroundColor: colors[pn][2],
-                width: '100px',
-                height: '100px'
+                width: '85px',
+                height: '85px'
               }}
               ></div>
               <p className='ptext'>{colors[pn][2]}</p></div>
@@ -50,8 +50,8 @@ function Palett() {
             <div className='cp' onClick={handleClickp}
                 style={{
                 backgroundColor: colors[pn][3],
-                width: '100px',
-                height: '100px'
+                width: '85px',
+                height: '85px'
               }}
               ></div>
               <p className='ptext'>{colors[pn][3]}</p></div>
@@ -59,8 +59,8 @@ function Palett() {
             <div className='cp' onClick={handleClickp}
             style={{
             backgroundColor: colors[pn][4],
-            width: '100px',
-            height: '100px'
+            width: '85px',
+            height: '85px'
           }}
         ></div>
         <p className='ptext'>{colors[pn][4]}</p></div>

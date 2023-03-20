@@ -23,6 +23,7 @@ function AnimalOne() {
     <div>
       <div className="animalOne">
       <div className="imagep">
+        <a href={data.animal1[number].link}><p className='credit'>{data.animal1[number].owner}</p></a>
             <img
               className="imga"
               src={data.animal1[number].url}
